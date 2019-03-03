@@ -1,0 +1,33 @@
+code book
+
+The dataset: Human Activity Recognition using Smartphones Dataset by the Non Linear Complex Systems Lab at University of Genoa, Italy.
+
+Transformations of the dataset are performed with the script run_analysis.R. 
+This script imports the Human Activity Recognition using Smartphones Dataset and exports a tidy dataset representing mean measured variables for each subject x activity.
+The output dataset is named project_tidy.txt
+
+The output of run_analysis.R is a dataset with the following variables:
+
+Variables:
+activity_desc : the physical activity the subject was performing during the trial
+subject_id : the subject's id (1 to 30)
+activity_id : the numeric code for the physical activity the subject was performing during the trial
+
+tBodyAcc : body acceleration signal 
+tGravityAcc : gravity acceleration signal
+tBodyAccJerk : body acceleration jerk signal
+tBodyGyro : body gyroscope signal
+tBodyGyroJerk : body gyroscope jerk signal
+tBodyAccMag : body accerlation magnitude
+tBodyAccJerkMag : body accerlation jerk magnitude
+fBodyAcc : fast Fourier transform of body accerlation signal
+fBodyAccJerk : fast Fourier transform of body acceleration jerk signal
+fBodyGyro : fast Fourier transform of body gyroscope signal
+fBodyAccMag : fast Fourier transform of body acceleration signal
+fBodyBodyAccJerkMag : fast Fourier transform of body accerlation jerk magnitude
+fBodyBodyGyroMag : fast Fourier transform of body gyroscope magnitude
+fBodyBodyGyroJerkMag : fast Fourier transform of body gyroscope jerk magnitude
+
+The variables beginning with 't' and 'f' represent mean, standard deviation (std) and weighted average of frequency components (meanFreq) in X, Y, and Z directions as labeled in variable name
+
+
