@@ -13,6 +13,7 @@ activity_desc : the physical activity the subject was performing during the tria
 subject_id : the subject's id (1 to 30)
 activity_id : the numeric code for the physical activity the subject was performing during the trial
 
+The following variables represent the mean value for each subject x activity combination:
 tBodyAcc : body acceleration signal 
 tGravityAcc : gravity acceleration signal
 tBodyAccJerk : body acceleration jerk signal
@@ -29,5 +30,6 @@ fBodyBodyGyroMag : fast Fourier transform of body gyroscope magnitude
 fBodyBodyGyroJerkMag : fast Fourier transform of body gyroscope jerk magnitude
 
 The variables beginning with 't' and 'f' represent mean, standard deviation (std) and weighted average of frequency components (meanFreq) in X, Y, and Z directions as labeled in variable name
+where the 'mean' in the variable names represents the mean for the TRIAL, not for the subject x activity combination.
 
 
